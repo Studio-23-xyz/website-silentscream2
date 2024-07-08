@@ -4,6 +4,7 @@ import Parallax from "./components/Parallax";
 import Button from "./components/Button";
 import Pitch from "./components/Pitch";
 import Director from "./components/Director";
+import Cast from "./components/Cast";
 
 const Page = () => {
   useEffect(() => {
@@ -25,6 +26,7 @@ const Page = () => {
         {/* Director Section */}
         <Director />
         {/* Cast Section */}
+        <Cast />
 
         <div className="bd-ss2-quill-bg bg-center md:bg-right">
           <div className="bg-black bg-opacity-80">
