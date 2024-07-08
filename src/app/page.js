@@ -6,6 +6,8 @@ import Pitch from "./components/Pitch";
 import Director from "./components/Director";
 import Cast from "./components/Cast";
 import Screenshots from "./components/Screenshots";
+import Itchio from "./components/Itchio";
+import TeamMembers from "./components/TeamMembers";
 
 const Page = () => {
   useEffect(() => {
@@ -33,8 +35,13 @@ const Page = () => {
           <div className="bg-black bg-opacity-80">
             {/* Screenshot Section */}
             <Screenshots />
+
             {/* Itchio Section */}
+            <Itchio />
+
             {/* Team Member Section */}
+            <TeamMembers />
+
             {/* About Section */}
           </div>
         </div>
