@@ -8,6 +8,7 @@ import Cast from "./components/Cast";
 import Screenshots from "./components/Screenshots";
 import Itchio from "./components/Itchio";
 import TeamMembers from "./components/TeamMembers";
+import About from "./components/About";
 
 const Page = () => {
   useEffect(() => {
@@ -43,6 +44,7 @@ const Page = () => {
             <TeamMembers />
 
             {/* About Section */}
+            <About />
           </div>
         </div>
       </div>

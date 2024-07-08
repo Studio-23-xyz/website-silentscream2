@@ -45,11 +45,12 @@ const Screenshots = () => {
       <div className="flex justify-center items-center">
         <iframe
           className="w-[90%] md:w-[822px] aspect-video"
-          src="https://www.youtube.com/embed/kGHyUYSXhUY"
+          src="https://www.youtube.com/embed/ufstvcvYta8?si=g-9_ojLTF_LK0ZDp"
           title="Silent Scream 2 Trailer"
-          frameBorder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowFullScreen
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen
         ></iframe>
       </div>
 

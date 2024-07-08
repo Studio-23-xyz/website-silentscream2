@@ -44,7 +44,6 @@ module.exports = {
           "url('../../public/assets/banners/ss2-ss-small-bg5.png')",
         "ss-small-bg6":
           "url('../../public/assets/banners/ss2-ss-small-bg6.png')",
-
         "quill-bg": "url('../../public/assets/quill_icon.svg')",
       },
     },
