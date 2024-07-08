@@ -1,6 +1,6 @@
 "use client";
 import Link from "next/link";
-import SilentScream2Logo from "../../../public/assets/silentscream2/silent-scram-2-logo.svg";
+import SilentScream2Logo from "../../../public/assets/silent-scram-2-logo.svg";
 
 const Navbar = () => {
   return (

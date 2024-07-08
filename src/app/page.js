@@ -1,5 +1,6 @@
 "use client";
 import { useEffect } from "react";
+import Parallax from "./components/Parallax";
 
 const Page = () => {
   useEffect(() => {
@@ -9,8 +10,8 @@ const Page = () => {
   return (
     <div>
       <div className="min-h-screen">
-        {/* Hero Banner Section */}
-
+        {/* parallax Section */}
+        <Parallax />
         {/* Button Section */}
 
         {/* Pitch Section */}
@@ -19,14 +20,12 @@ const Page = () => {
 
         {/* Cast Section */}
 
-        <div className="bg-ss2-quill-bg bg-center md:bg-right">
+        <div className="bd-ss2-quill-bg bg-center md:bg-right">
           <div className="bg-black bg-opacity-80">
             {/* Screenshot Section */}
 
             {/* Itchio Section */}
-
             {/* Team Member Section */}
-
             {/* About Section */}
           </div>
         </div>
