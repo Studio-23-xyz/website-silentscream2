@@ -31,7 +31,21 @@ module.exports = {
           "url('../../public/assets/banners/ss2-back-banner-ms.png')",
         "banner-bg-mm":
           "url('../../public/assets/banners/ss2-back-banner-mm.png')",
-        "quill-bg": "url('../../public/assets/silent-scram-2-logo.svg')",
+        "ss-full-bg": "url('../../public/assets/banners/ss2-ss-full-bg.png')",
+        "ss-small-bg1":
+          "url('../../public/assets/banners/ss2-ss-small-bg1.png')",
+        "ss-small-bg2":
+          "url('../../public/assets/banners/ss2-ss-small-bg2.png')",
+        "ss-small-bg3":
+          "url('../../public/assets/banners/ss2-ss-small-bg3.png')",
+        "ss-small-bg4":
+          "url('../../public/assets/banners/ss2-ss-small-bg4.png')",
+        "ss-small-bg5":
+          "url('../../public/assets/banners/ss2-ss-small-bg5.png')",
+        "ss-small-bg6":
+          "url('../../public/assets/banners/ss2-ss-small-bg6.png')",
+
+        "quill-bg": "url('../../public/assets/quill_icon.svg')",
       },
     },
   },

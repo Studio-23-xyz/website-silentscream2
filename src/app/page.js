@@ -5,6 +5,7 @@ import Button from "./components/Button";
 import Pitch from "./components/Pitch";
 import Director from "./components/Director";
 import Cast from "./components/Cast";
+import Screenshots from "./components/Screenshots";
 
 const Page = () => {
   useEffect(() => {
@@ -28,10 +29,10 @@ const Page = () => {
         {/* Cast Section */}
         <Cast />
 
-        <div className="bd-ss2-quill-bg bg-center md:bg-right">
+        <div className="bg-quill-bg bg-center md:bg-right">
           <div className="bg-black bg-opacity-80">
             {/* Screenshot Section */}
-
+            <Screenshots />
             {/* Itchio Section */}
             {/* Team Member Section */}
             {/* About Section */}
