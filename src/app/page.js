@@ -2,6 +2,8 @@
 import { useEffect } from "react";
 import Parallax from "./components/Parallax";
 import Button from "./components/Button";
+import Pitch from "./components/Pitch";
+import Director from "./components/Director";
 
 const Page = () => {
   useEffect(() => {
@@ -18,9 +20,10 @@ const Page = () => {
         <Button />
 
         {/* Pitch Section */}
+        <Pitch />
 
         {/* Director Section */}
-
+        <Director />
         {/* Cast Section */}
 
         <div className="bd-ss2-quill-bg bg-center md:bg-right">

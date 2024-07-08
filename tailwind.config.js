@@ -23,6 +23,14 @@ module.exports = {
         "parallax-bg4":
           "url('../../public/assets/parallax/ss2-hero-bg-layer4.png')",
         "button-bg": "url('../../public/assets/buttonbg1.png')",
+        "banner-bg-ls":
+          "url('../../public/assets/banners/ss2-back-banner-ls.png')",
+        "banner-bg-lm":
+          "url('../../public/assets/banners/ss2-back-banner-lm.png')",
+        "banner-bg-ms":
+          "url('../../public/assets/banners/ss2-back-banner-ms.png')",
+        "banner-bg-mm":
+          "url('../../public/assets/banners/ss2-back-banner-mm.png')",
         "quill-bg": "url('../../public/assets/silent-scram-2-logo.svg')",
       },
     },
