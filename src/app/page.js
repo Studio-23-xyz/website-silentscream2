@@ -1,6 +1,7 @@
 "use client";
 import { useEffect } from "react";
 import Parallax from "./components/Parallax";
+import Button from "./components/Button";
 
 const Page = () => {
   useEffect(() => {
@@ -12,7 +13,9 @@ const Page = () => {
       <div className="min-h-screen">
         {/* parallax Section */}
         <Parallax />
+
         {/* Button Section */}
+        <Button />
 
         {/* Pitch Section */}
 

@@ -14,15 +14,16 @@ module.exports = {
         main_gradient_Color2: "#000000",
       },
       backgroundImage: {
-        "ss2-quill-bg": "url('../../public/assets/silent-scram-2-logo.svg')",
-        "ss2-parallax-1":
+        "parallax-bg1":
           "url('../../public/assets/parallax/ss2-hero-bg-layer1.png')",
-        "ss2-parallax-2":
+        "parallax-bg2":
           "url('../../public/assets/parallax/ss2-hero-bg-layer2.png')",
-        "ss2-parallax-3":
+        "parallax-bg3":
           "url('../../public/assets/parallax/ss2-hero-bg-layer3.png')",
-        "ss2-parallax-4":
+        "parallax-bg4":
           "url('../../public/assets/parallax/ss2-hero-bg-layer4.png')",
+        "button-bg": "url('../../public/assets/buttonbg1.png')",
+        "quill-bg": "url('../../public/assets/silent-scram-2-logo.svg')",
       },
     },
   },

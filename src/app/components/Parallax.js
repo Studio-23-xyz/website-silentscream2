@@ -17,25 +17,25 @@ const Parallax = () => {
       className="w-full h-screen overflow-hidden relative grid place-items-center"
     >
       <motion.div
-        className="absolute inset-0 z-0 bg-ss2-parallax-1 bg-cover bg-center bg-no-repeat"
+        className="absolute inset-0 z-0 bg-parallax-bg1 bg-cover bg-center bg-no-repeat"
         style={{
           y: layer1Y,
         }}
       ></motion.div>
       <motion.div
-        className="absolute inset-0 z-10 bg-ss2-parallax-2 bg-cover bg-center md:bg-contain bg-no-repeat"
+        className="absolute inset-0 z-10 bg-parallax-bg2 bg-cover bg-center md:bg-contain bg-no-repeat"
         style={{
           y: layer2Y,
         }}
       ></motion.div>
       <motion.div
-        className="absolute inset-0 z-20 bg-ss2-parallax-3 bg-cover bg-center bg-no-repeat"
+        className="absolute inset-0 z-20 bg-parallax-bg3 bg-cover bg-center bg-no-repeat"
         style={{
           y: layer3Y,
         }}
       ></motion.div>
       <motion.div
-        className="absolute inset-0 bg-ss2-parallax-4 z-30 bg-cover md:bg-cover bg-center"
+        className="absolute inset-0 bg-parallax-bg4 z-30 bg-cover md:bg-cover bg-center"
         style={{}}
       ></motion.div>
     </div>
