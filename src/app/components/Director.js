@@ -19,10 +19,10 @@ const Director = () => {
             As the Game Director, I am dedicated to revolutionizing the game
             development landscape in Bangladesh, step by step. Silent Scream 2
             represents a major leap in this journey, showcasing our commitment
-            to excellence and innovation. We've poured our hearts into creating
-            this game, and I sincerely hope you find as much joy in playing it
-            as we did in bringing it to life. Your support and enjoyment are
-            what drive us to keep pushing the boundaries.
+            to excellence and innovation. We&apos;ve poured our hearts into
+            creating this game, and I sincerely hope you find as much joy in
+            playing it as we did in bringing it to life. Your support and
+            enjoyment are what drive us to keep pushing the boundaries.
             <a className="text-[16px] md:text-[22px] font-black">
               Tanimul Haque Khan
             </a>
