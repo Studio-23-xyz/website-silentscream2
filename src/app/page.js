@@ -1,14 +1,14 @@
 "use client";
 import { useEffect } from "react";
-import Parallax from "./components/Parallax";
-import Button from "./components/Button";
-import Pitch from "./components/Pitch";
-import Director from "./components/Director";
-import Cast from "./components/Cast";
-import Screenshots from "./components/Screenshots";
-import Itchio from "./components/Itchio";
-import TeamMembers from "./components/TeamMembers";
 import About from "./components/About";
+import Button from "./components/Button";
+import Cast from "./components/Cast";
+import Director from "./components/Director";
+import Itchio from "./components/Itchio";
+import Parallax from "./components/Parallax";
+import Pitch from "./components/Pitch";
+import Screenshots from "./components/Screenshots";
+import TeamMembers from "./components/TeamMembers";
 
 const Page = () => {
   useEffect(() => {
