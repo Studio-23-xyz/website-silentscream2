@@ -10,6 +10,7 @@ import Tiffany from "/public/assets/casts/Tiffany.png";
 import Quill from "/public/assets/quill.png";
 import CastComponents from "./CastComponents";
 import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/swiper-bundle.css";
 
 const Cast = () => {
   const [isMobile, setIsMobile] = useState(false);
