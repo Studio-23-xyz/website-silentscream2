@@ -5,6 +5,7 @@ const Itchio = () => {
     <div className="w-full flex justify-center items-center mt-10">
       <div>
         <div className="flex justify-center">
+          {/*  
           <iframe
             frameborder="0"
             src="https://itch.io/embed/2531671?bg_color=001328&amp;fg_color=ffffff&amp;link_color=FF1F00&amp;border_color=333333"
@@ -15,6 +16,7 @@ const Itchio = () => {
               Silent Scream 2 Demo by Studio-23
             </a>
           </iframe>
+          */}
         </div>
       </div>
     </div>

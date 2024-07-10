@@ -19,6 +19,7 @@ const Page = () => {
     <div>
       <div className="min-h-screen">
         {/* parallax Section */}
+
         <Parallax />
 
         {/* Button Section */}

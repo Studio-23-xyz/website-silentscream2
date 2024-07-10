@@ -18,7 +18,7 @@ const Button = () => {
            text-silent2_button_text font-bold pb-1 md:pb-2 transform transition-transform duration-300 hover:scale-105 hover:brightness-110"
           onClick={() => {
             window.open(
-              "https://www.youtube.com/watch?v=kGHyUYSXhUY",
+              "https://www.youtube.com/embed/ufstvcvYta8?si=g-9_ojLTF_LK0ZDp",
               "_blank"
             );
           }}
