@@ -23,7 +23,7 @@ const TeamMembers = () => {
       <div className="flex flex-col gap-5 md:gap-0 md:flex-row justify-center items-center mt-5 md:mt-16 mx-4 md:mx-20">
         <div>
           <div className="h-[100px] md:h-[150px] flex flex-col justify-start items-center">
-            <h1 h1 className="text-[32px] font-bold text-silent2_red">
+            <h1 className="text-[32px] font-bold text-silent2_red">
               Game Director
             </h1>
             <p className="text-[24px] text-white">Tanimul Haque Khan</p>

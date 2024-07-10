@@ -19,7 +19,6 @@ const Page = () => {
     <div>
       <div className="min-h-screen">
         {/* parallax Section */}
-
         <Parallax />
 
         {/* Button Section */}
@@ -30,6 +29,7 @@ const Page = () => {
 
         {/* Director Section */}
         <Director />
+
         {/* Cast Section */}
         <Cast />
 
