@@ -19,11 +19,28 @@ const screenshots = [
 
 const Screenshots = () => {
   const [showModal, setShowModal] = useState(false);
-  const [currentScreenshot, setCurrentScreenshot] = useState(null);
+  const [currentScreenshotIndex, setCurrentScreenshotIndex] = useState(null);
 
-  const openModal = (screenshot) => {
-    setCurrentScreenshot(screenshot);
+  const openModal = (index) => {
+    setCurrentScreenshotIndex(index);
     setShowModal(true);
+  };
+
+  const closeModal = () => {
+    setShowModal(false);
+    setCurrentScreenshotIndex(null);
+  };
+
+  const goToNext = () => {
+    setCurrentScreenshotIndex(
+      (prevIndex) => (prevIndex + 1) % screenshots.length
+    );
+  };
+
+  const goToPrevious = () => {
+    setCurrentScreenshotIndex(
+      (prevIndex) => (prevIndex - 1 + screenshots.length) % screenshots.length
+    );
   };
 
   const backgroundClasses = [
@@ -45,7 +62,7 @@ const Screenshots = () => {
       <div className="flex justify-center items-center">
         <iframe
           className="w-[90%] md:w-[822px] aspect-video"
-          src="https://www.youtube.com/embed/ufstvcvYta8?si=g-9_ojLTF_LK0ZDp"
+          src="https://www.youtube.com/embed/mBd99SRJbJw?si=tfID6T5sBv5ao8LU"
           title="Silent Scream 2 Trailer"
           frameBorder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -65,7 +82,7 @@ const Screenshots = () => {
                   backgroundClasses[index % backgroundClasses.length]
                 } w-[133px] md:w-[368px] h-[182px] md:h-[504px] px-3 md:px-6 pt-5 md:pt-9 pb-7 md:pb-16 bg-cover 
                   transform transition-transform duration-300 hover:scale-105 hover:brightness-110`}
-                onClick={() => openModal(screenshot)}
+                onClick={() => openModal(index)}
               >
                 <Image
                   src={screenshot.src}
@@ -77,11 +94,15 @@ const Screenshots = () => {
               </div>
             ))}
           </div>
-          <ScreenshotModal
-            isVisible={showModal}
-            onClose={() => setShowModal(false)}
-            screenshot={currentScreenshot}
-          />
+          {showModal && (
+            <ScreenshotModal
+              isVisible={showModal}
+              onClose={closeModal}
+              screenshot={screenshots[currentScreenshotIndex]}
+              onNext={goToNext}
+              onPrevious={goToPrevious}
+            />
+          )}
         </div>
       </Fragment>
     </div>
