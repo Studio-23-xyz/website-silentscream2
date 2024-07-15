@@ -33,7 +33,7 @@ const Page = () => {
         {/* Cast Section */}
         <Cast />
 
-        <div className="bg-quill-bg bg-center md:bg-right">
+        <div className="bg-quill-bg bg-center bg-no-repeat bg-cover md:bg-right">
           <div className="bg-black bg-opacity-80">
             {/* Screenshot Section */}
             <Screenshots />
