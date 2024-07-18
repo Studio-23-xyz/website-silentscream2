@@ -4,10 +4,10 @@ import About from "./components/About";
 import Button from "./components/Button";
 import Cast from "./components/Cast";
 import Director from "./components/Director";
-import Itchio from "./components/Itchio";
 import Parallax from "./components/Parallax";
 import Pitch from "./components/Pitch";
 import Screenshots from "./components/Screenshots";
+import Steam from "./components/Steam";
 import TeamMembers from "./components/TeamMembers";
 
 const Page = () => {
@@ -39,7 +39,8 @@ const Page = () => {
             <Screenshots />
 
             {/* Itchio Section */}
-            <Itchio />
+
+            <Steam />
 
             {/* Team Member Section */}
             <TeamMembers />
