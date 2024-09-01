@@ -1,20 +1,26 @@
 import Image from "next/image";
 import { Fragment, useState } from "react";
-import Screenshot1 from "/public/assets/screenshots/ss2-ss-01.png";
-import Screenshot2 from "/public/assets/screenshots/ss2-ss-02.png";
-import Screenshot3 from "/public/assets/screenshots/ss2-ss-03.png";
-import Screenshot4 from "/public/assets/screenshots/ss2-ss-04.png";
-import Screenshot5 from "/public/assets/screenshots/ss2-ss-05.png";
-import Screenshot6 from "/public/assets/screenshots/ss2-ss-06.png";
 import ScreenshotModal from "./ScreenshotsModal";
+import Screenshot1 from "/public/assets/screenshots/ss2-ss-01.jpg";
+import Screenshot2 from "/public/assets/screenshots/ss2-ss-02.jpg";
+import Screenshot3 from "/public/assets/screenshots/ss2-ss-03.jpg";
+import Screenshot4 from "/public/assets/screenshots/ss2-ss-04.jpg";
+import Screenshot5 from "/public/assets/screenshots/ss2-ss-05.jpg";
+import Screenshot6 from "/public/assets/screenshots/ss2-ss-06.jpg";
+import Screenshot7 from "/public/assets/screenshots/ss2-ss-07.jpg";
+import Screenshot8 from "/public/assets/screenshots/ss2-ss-08.jpg";
+import Screenshot9 from "/public/assets/screenshots/ss2-ss-09.jpg";
 
 const screenshots = [
-  { src: Screenshot1, alt: "Silent Scream 2 Screenshot 1" },
-  { src: Screenshot2, alt: "Silent Scream 2 Screenshot 2" },
-  { src: Screenshot3, alt: "Silent Scream 2 Screenshot 3" },
-  { src: Screenshot4, alt: "Silent Scream 2 Screenshot 4" },
-  { src: Screenshot5, alt: "Silent Scream 2 Screenshot 5" },
-  { src: Screenshot6, alt: "Silent Scream 2 Screenshot 6" },
+  { src: Screenshot1, alt: "Screenshot - Main Menu" },
+  { src: Screenshot2, alt: "Screenshot - Grandhall" },
+  { src: Screenshot3, alt: "Screenshot - Grandhall Writer Vision" },
+  { src: Screenshot4, alt: "Screenshot - Journal: Characters" },
+  { src: Screenshot5, alt: "Screenshot - Journal: Inventory" },
+  { src: Screenshot6, alt: "Screenshot - Lobby" },
+  { src: Screenshot7, alt: "Screenshot - Dining Room" },
+  { src: Screenshot8, alt: "Screenshot - Portrait" },
+  { src: Screenshot9, alt: "Screenshot - Living Room" },
 ];
 
 const Screenshots = () => {
