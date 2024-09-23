@@ -87,7 +87,7 @@ const items = [
          gap-3"
         >
           <h1 className="text-[18px] md:text-[32px] font-bold text-center">
-            John, The Writer
+            JOHN QUINTON
           </h1>
           <p className="text-[14px] md:text-[16px] font-medium text-center">
             John, once a literary sensation, soared to fame with his debut novel
@@ -130,15 +130,16 @@ const items = [
          gap-3"
         >
           <h1 className="text-[18px] md:text-[32px] font-bold text-center">
-            Alan, Retired Detective
+            ALAN WALKER
           </h1>
           <p className="text-[14px] md:text-[16px] font-medium text-center">
             Alan was once a respected and promising police sergeant known for
             his sharp instincts and commitment to justice. However, his career
             was derailed after he impulsively shot a young suspect during a
             high-stress operation, leading to his dishonorable discharge and
-            imprisonment. The incident left him plagued by guilt, sleepless
-            nights, and an ongoing battle with his temper. Adding to his woes,
+            imprisonment. <br></br>
+            <br></br>The incident left him plagued by guilt, sleepless nights,
+            and an ongoing battle with his temper. Adding to his woes,
             Alan&apos;s wife died under suspicious circumstances, with neighbors
             suspecting his involvement despite the police ruling it a suicide.
             To reclaim his life, Alan started attending anger management therapy
@@ -179,18 +180,19 @@ const items = [
          gap-3"
         >
           <h1 className="text-[18px] md:text-[32px] font-bold text-center">
-            Chad, Gluttony
+            CHAD WINSTON
           </h1>
           <p className="text-[14px] md:text-[16px] font-medium  text-center">
             Chad&apos;s high school years were a golden era where he was the
             star quarterback, admired by peers and favored by teachers. He
             thrived on the cheers and admiration, basking in glory. However,
             after high school, reality hit hard as he failed to pursue college
-            or a meaningful career. Instead, Chad clung to his past, engaging in
-            meaningless relationships and parties to relive his glory days. His
-            promising football skills went to waste, and he became stuck in a
-            cycle of nostalgia. Beneath his superficial demeanor lies deep
-            frustration and insecurity over his inability to move forward.
+            or a meaningful career.<br></br>
+            <br></br> Instead, Chad clung to his past, engaging in meaningless
+            relationships and parties to relive his glory days. His promising
+            football skills went to waste, and he became stuck in a cycle of
+            nostalgia. Beneath his superficial demeanor lies deep frustration
+            and insecurity over his inability to move forward.
           </p>
         </div>
       </div>
@@ -224,13 +226,15 @@ const items = [
        gap-3"
         >
           <h1 className="text-[18px] md:text-[32px] font-bold text-center">
-            Tiffany, Envy
+            TIFFANY BREWSTER
           </h1>
           <p className="text-[14px] md:text-[16px] font-medium text-center">
             Tiffany and Chad were high school sweethearts and the envy of their
             classmates, reigning as Prom Queen and King. Tiffany, with her
             stunning looks and charisma, was the head cheerleader, while
             Chad&apos;s athleticism and charm earned him the title of Prom King.
+            <br></br>
+            <br></br>
             After high school, they moved in together, eager to build a life
             side by side. Tiffany became a skilled nail technician at a local
             salon, showcasing her artistic talents, while Chad pursued his
@@ -271,7 +275,7 @@ const items = [
          gap-3"
         >
           <h1 className="text-[18px] md:text-[32px] font-bold text-center">
-            Edger, Arcchaeologist
+            EDGAR WRIGHT
           </h1>
           <p className="text-[14px] md:text-[16px] font-medium text-center">
             Edgar, an educated and unassuming man, has dedicated his life to
@@ -323,15 +327,15 @@ const items = [
          gap-3"
         >
           <h1 className="text-[18px] md:text-[32px] font-bold text-center">
-            Linda, Doctor
+            LINDA HAMILTON
           </h1>
           <p className="text-[14px] md:text-[16px] font-medium text-center">
             Linda&apos;s upbringing emphasized academic excellence, leading her
             to become a skilled surgeon at Harvard Medical School. Tragedy
             struck when her parents died, prompting her to shift to Emergency
-            Room and postmortem work for closure. Her dedication led to burnout
-            and a mandated leave, forcing her to explore life beyond medicine
-            for the first time.
+            Room and postmortem work for closure.<br></br>
+            <br></br> Her dedication led to burnout and a mandated leave,
+            forcing her to explore life beyond medicine for the first time.
           </p>
         </div>
       </div>
@@ -365,18 +369,19 @@ const items = [
          gap-3"
         >
           <h1 className="text-[18px] md:text-[32px] font-bold text-center">
-            Marcus, Globe Trotter
+            MARCUS GOLDMAN
           </h1>
           <p className="text-[14px] md:text-[16px] font-medium text-center">
             Marcus may seem like a charming globetrotter, but beneath his
             adventurous exterior lies a cunning conman with a history of
-            fraudulent activities across multiple countries. Skilled in identity
-            theft, scams, and elaborate frauds, he attends events like the
-            mansion&apos;s retreats not for adventure, but for opportunities for
-            theft and deception. Marcus&apos;s rap sheet includes art thefts,
-            Ponzi schemes, and elaborate heists. He excels at infiltrating
-            high-society circles, manipulating people to his advantage, all
-            while maintaining a façade of sophistication and worldliness.
+            fraudulent activities across multiple countries.<br></br>
+            <br></br> Skilled in identity theft, scams, and elaborate frauds, he
+            attends events like the mansion&apos;s retreats not for adventure,
+            but for opportunities for theft and deception. Marcus&apos;s rap
+            sheet includes art thefts, Ponzi schemes, and elaborate heists. He
+            excels at infiltrating high-society circles, manipulating people to
+            his advantage, all while maintaining a façade of sophistication and
+            worldliness.
           </p>
         </div>
       </div>
