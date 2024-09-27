@@ -77,7 +77,7 @@ const TeamMembers = () => {
                 Level Designers
               </h1>
               <p className="text-[20px] text-white">Fahim Faisal</p>
-              <p className="text-[20px] text-white">Nurusshafi Evan</p>
+              <p className="text-[20px] text-white">Md. Nurusshafi Evan</p>
               <p className="text-[20px] text-white">Md. Maruf Howlader</p>
             </div>
             {/* Art Team */}
@@ -104,7 +104,6 @@ const TeamMembers = () => {
               <p className="text-[20px] text-white">Shahadat Hossain Shamim</p>
               <p className="text-[20px] text-white">Tanimul Haque Khan</p>
             </div>
-            
           </div>
 
           {/* 4th Section */}
@@ -137,7 +136,6 @@ const TeamMembers = () => {
               </h1>
               <p className="text-[20px] text-white">Generative AI</p>
             </div>
-
           </div>
         </div>
       </div>
