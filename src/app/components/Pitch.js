@@ -12,9 +12,9 @@ const Pitch = () => {
           >
             Silent Scream 2, a spine-chilling third-person adventure puzzle
             horror game developed by Studio 23, plunges players into the depths
-            of terror within an abandoned asylum, where they must navigate
-            through intricate puzzles, uncover dark mysteries, and confront
-            malevolent entities to survive.
+            of terror within an age old castle, where they must navigate through
+            intricate puzzles, uncover dark mysteries, and confront malevolent
+            entities to survive.
           </p>
         </div>
       </div>
