@@ -7,6 +7,7 @@ import Director from "./components/Director";
 import Parallax from "./components/Parallax";
 import Pitch from "./components/Pitch";
 import Screenshots from "./components/Screenshots";
+import SocialMedia from "./components/SocialMedia";
 import Steam from "./components/Steam";
 import TeamMembers from "./components/TeamMembers";
 
@@ -35,11 +36,14 @@ const Page = () => {
 
         <div className="bg-quill-bg bg-center bg-no-repeat bg-cover md:bg-right">
           <div className="bg-black bg-opacity-80">
+
             {/* Screenshot Section */}
             <Screenshots />
 
-            {/* Itchio Section */}
+            {/* Social Media Section */}
+            <SocialMedia/>
 
+            {/* Itchio Section */}
             <Steam />
 
             {/* Team Member Section */}
@@ -47,6 +51,7 @@ const Page = () => {
 
             {/* About Section */}
             <About />
+
           </div>
         </div>
       </div>
