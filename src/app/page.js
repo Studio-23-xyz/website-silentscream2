@@ -4,6 +4,7 @@ import About from "./components/About";
 import Button from "./components/Button";
 import Cast from "./components/Cast";
 import Director from "./components/Director";
+import Footer from "./components/Footer";
 import Parallax from "./components/Parallax";
 import Pitch from "./components/Pitch";
 import Screenshots from "./components/Screenshots";
@@ -54,6 +55,9 @@ const Page = () => {
 
           </div>
         </div>
+
+          {/* Footer */}
+          <Footer/>
       </div>
     </div>
   );

@@ -1,4 +1,3 @@
-import React from "react";
 import Image from "next/image";
 import Studio23logoBlack from "/public/assets/studio23-logo-black.png";
 
@@ -11,13 +10,19 @@ const About = () => {
            bg-banner-bg-mm md:bg-banner-bg-lm bg-no-repeat bg-center gap-10 md:gap-9"
         >
           <div className="md:w-2/5 flex justify-center items-center">
-            <Image
-              src={Studio23logoBlack}
-              width={196}
-              height={154}
-              alt="Studio 23 Logo"
-              className="w-[75px] md:w-[196px] h-[62px] md:h-[154px]"
-            />
+            <a 
+              href="https://www.studio-23.xyz/" 
+              target="_blank" 
+              rel="noopener noreferrer"
+            >
+              <Image
+                src={Studio23logoBlack}
+                width={196}
+                height={154}
+                alt="Studio 23 Logo"
+                className="w-[75px] md:w-[196px] h-[62px] md:h-[154px]"
+              />
+            </a>
           </div>
 
           <div className="flex flex-col gap-8 md:gap-4 md:w-3/5">
